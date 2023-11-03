@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "face-mask-detection"
+version = "0.1.0"
+description = ""
+authors = ["Maryam"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+face-detection = "^0.2.2"
+mrcnn = "^0.2"
+clint = "^0.5.1"
+matplotlib = "^3.8.0"
+config = "^0.5.1"
+crontab = "^1.0.1"
+seaborn = "^0.12.2"
+gradio = "^3.46.1"
+opencv-python = "^4.8.1.78"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
